@@ -1,0 +1,12 @@
+[sqlfluff]
+dialect = redshift
+
+[sqlfluff:indentation]
+tab_space_size = 2
+
+[sqlfluff:rules:capitalisation.keywords]
+capitalisation_policy = upper
+
+[sqlfluff:layout:type:comma]
+spacing_before = touch
+line_position = leading
