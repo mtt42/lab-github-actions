@@ -27,5 +27,7 @@ jobs:
           echo test, and deploy your project.
 
       - name: Show Python version
-        run: echo $(python --version)
+        run: |
+          echo $(python --version)
+          python hello.py
 
