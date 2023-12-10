@@ -28,7 +28,7 @@ jobs:
 
       - name: Show Python version
         run: |
-          echo $(python --version)
+          echo $(python)
           echo $(pwd)
           echo $(ls)
 
