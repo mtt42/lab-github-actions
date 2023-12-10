@@ -13,4 +13,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: /usr/bin/python3 hello.py
+      - run: | 
+          sudo apt-get update
+          sudo apt-get install tree && tree
