@@ -29,5 +29,5 @@ jobs:
       - name: Show Python version
         run: |
           echo $(python --version)
-          python hello.py
+          python ./hello.py
 
